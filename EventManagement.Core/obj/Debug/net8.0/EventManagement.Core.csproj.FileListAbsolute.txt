@@ -1,0 +1,12 @@
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\bin\Debug\net8.0\EventManagement.Core.deps.json
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\bin\Debug\net8.0\EventManagement.Core.dll
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\bin\Debug\net8.0\EventManagement.Core.pdb
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.csproj.AssemblyReference.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.AssemblyInfoInputs.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.AssemblyInfo.cs
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.dll
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\refint\EventManagement.Core.dll
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.pdb
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\ref\EventManagement.Core.dll
