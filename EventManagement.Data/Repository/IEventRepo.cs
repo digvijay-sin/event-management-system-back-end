@@ -12,15 +12,11 @@ namespace EventManagement.Data.Repository
     {
 
 
-        public Task<List<EventResponseDTO>> GetAllEvents(int UserId);
-
-        public Task<EventResponseDTO> CreateEvent(CreateEventRequestDTO eventDto, int UserId);
-
-        public Task<EventResponseDTO> UpdateEvent( UpdateEventRequestDTO eventDto, int UserId);
-        
-        public Task<bool> DeleteEvent(int eventId, int UserId);
-
-        public Task<EventResponseDTO> GetEventById(int eventId, int UserId);
+        Task<EventResponseDTO> CreateEvent(CreateEventRequestDTO eventDto, int userId);
+        Task<bool> DeleteEvent(int eventId, int userId);
+        Task<List<EventResponseDTO>> GetAllEvents(int userId);
+        Task<EventResponseDTO> GetEventById(int eventId, int userId);
+        Task<EventResponseDTO> UpdateEvent(UpdateEventRequestDTO eventDto, int userId);
 
         public Task<List<EventWithRsvpsDTO>> GetEventsWithRsvpsWithPositiveStatus(DateTime date);
 

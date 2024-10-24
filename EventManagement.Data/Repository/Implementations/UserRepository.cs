@@ -25,10 +25,9 @@ namespace EventManagement.Data.Repository.Implementations
 
         public async Task<UserResponseDTO> CreateUser(RegistrationRequestDTO userDto)
         {
-            var user = _mapper.Map<User>(userDto); 
+            var user = _mapper.Map<User>(userDto);
 
             await _context.Users.AddAsync(user);
-
             await _context.SaveChangesAsync();
 
             return _mapper.Map<UserResponseDTO>(user);
@@ -40,47 +39,44 @@ namespace EventManagement.Data.Repository.Implementations
 
             if (user == null)
             {
-                return false; 
+                return false;
             }
-            
+
             _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-            return true; 
+            int count = await _context.SaveChangesAsync();
+            return count > 0;
         }
 
         public async Task<UserResponseDTO> UpdateUser(int userId, UpdateUserDTO userDto)
         {
-            //var user = await _context.Users.FindAsync(userId);
-            var user = await _context.Users.Where(u => u.UserId == userId).Include(u => u.Role).SingleOrDefaultAsync();
+            var user = await _context.Users.Include(u => u.Role).SingleOrDefaultAsync(u => u.UserId == userId);
             if (user == null)
             {
-                return null; 
-            }
-
-            if(user.UserId != userId)
-            {
-                throw new Exception("Unauthorized");
+                return null;
             }
 
             _mapper.Map(userDto, user);
 
-            await _context.SaveChangesAsync();
+            int count = await _context.SaveChangesAsync();
+            if (count == 0)
+            {
+                throw new Exception("Error updating user.");
+            }
 
             return _mapper.Map<UserResponseDTO>(user);
         }
 
         public async Task<UserResponseDTO?> GetUserById(int userId)
         {
-            var user = await _context.Users.Where(u => u.UserId == userId).Include(u => u.Role).SingleOrDefaultAsync();
-           
-            return user != null ? _mapper.Map<UserResponseDTO>(user) : null; 
+            var user = await _context.Users.Include(u => u.Role).SingleOrDefaultAsync(u => u.UserId == userId);
+            return user != null ? _mapper.Map<UserResponseDTO>(user) : null;
         }
 
         public async Task<List<UserResponseDTO>> GetUsers()
         {
             var users = await _context.Users.Include(u => u.Role).ToListAsync();
-           
-            return _mapper.Map<List<UserResponseDTO>>(users); 
+            return _mapper.Map<List<UserResponseDTO>>(users);
         }
+
     }
 }

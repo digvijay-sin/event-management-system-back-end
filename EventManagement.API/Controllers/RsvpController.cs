@@ -28,72 +28,108 @@ namespace EventManagement.API.Controllers
 
         [AllowAnonymous]
         [HttpGet("respond")]
-
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(typeof(RsvpResponseDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> RespondToRsvp(string status, int rsvpId)
         {
-            RsvpResponseDTO responseDto = new RsvpResponseDTO()
-            {
-                RsvpId = rsvpId,
-                Status = status
-            };
-
-            if (string.IsNullOrEmpty(responseDto.Status))
+            // Model validation
+            if (string.IsNullOrEmpty(status))
             {
                 return BadRequest("RSVP status is required.");
             }
-            var updatedRsvp = await _rsvpRepository.UpdateRsvpStatus(responseDto.RsvpId, responseDto.Status);
-            return Ok(updatedRsvp);
+
+            try
+            {
+                var updatedRsvp = await _rsvpRepository.UpdateRsvpStatus(rsvpId, status);
+                return Ok(updatedRsvp);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet("allAttendees/{eventId}")]
-
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<RsvpResponseDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<RsvpResponseDTO>>> GetRsvpsByEvent(int eventId)
         {
-            var rsvps = await _rsvpRepository.GetRsvpsByEventId(eventId);            
-            return Ok(rsvps);
+            try
+            {
+                var rsvps = await _rsvpRepository.GetRsvpsByEventId(eventId);
+                if (rsvps == null || rsvps.Count == 0)
+                {
+                    return NotFound("No RSVPs found for this event.");
+                }
+                return Ok(rsvps);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost("sendMail/{eventId}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> SendMails(int eventId)
         {
-            var rsvps = await _rsvpRepository.GetRsvpsByEventId(eventId);
+            try
+            {
+                var rsvps = await _rsvpRepository.GetRsvpsByEventId(eventId);
+                if (rsvps == null || rsvps.Count == 0)
+                {
+                    return NotFound("No RSVPs found for this event.");
+                }
 
-            await _emailSender.SendInvitationEmailAsync(rsvps);
-            return Ok();
+                await _emailSender.SendInvitationEmailAsync(rsvps);
+                return Ok("Invitation emails sent successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")]
         [HttpDelete("delete/{id}")]
-
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> DeleteRsvp(int id)
         {
-            var result = await _rsvpRepository.DeleteRsvp(id);
-            if (!result)
+            try
             {
-                return NotFound();
-            }
+                var result = await _rsvpRepository.DeleteRsvp(id);
+                if (!result)
+                {
+                    return NotFound("RSVP not found.");
+                }
 
-            return NoContent();
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPut("update/{id}")]
-
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(RsvpResponseDTO), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)] 
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<RsvpResponseDTO>> UpdateRsvp(int id, [FromBody] UpdateRsvpRequestDTO rsvpDto)
         {
             if (!ModelState.IsValid)
@@ -101,14 +137,22 @@ namespace EventManagement.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            var updatedRsvp = await _rsvpRepository.UpdateRsvp(id, rsvpDto);
-            if (updatedRsvp == null)
+            try
             {
-                return NotFound(); 
-            }
+                var updatedRsvp = await _rsvpRepository.UpdateRsvp(id, rsvpDto);
+                if (updatedRsvp == null)
+                {
+                    return NotFound("RSVP not found.");
+                }
 
-            return Ok(updatedRsvp);
+                return Ok(updatedRsvp);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
+
 
         private int GetUserId()
         {

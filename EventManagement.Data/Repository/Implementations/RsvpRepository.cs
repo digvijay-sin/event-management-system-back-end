@@ -25,7 +25,7 @@ namespace EventManagement.Data.Repository.Implementations
 
         public async Task<int> CreateRsvps(List<Rsvp> rsvpsDto)
         {
-            foreach(var rsvp in rsvpsDto)
+            foreach (var rsvp in rsvpsDto)
             {
                 await _context.Rsvps.AddAsync(rsvp);
             }
@@ -45,20 +45,25 @@ namespace EventManagement.Data.Repository.Implementations
             var rsvp = await _context.Rsvps.FindAsync(rsvpId);
             if (rsvp == null)
             {
-                return false;
+                throw new Exception("RSVP not found");
             }
 
             _context.Rsvps.Remove(rsvp);
             int count = await _context.SaveChangesAsync();
-            return count > 0;
+            if (count == 0)
+            {
+                throw new Exception("Error deleting RSVP");
+            }
+
+            return true;
         }
 
         public async Task<List<RsvpResponseDTO>> GetRsvpsByEventId(int eventId)
         {
             var rsvps = await _context.Rsvps.Where(r => r.EventId == eventId).Include(r => r.Event).ToListAsync();
-            if(rsvps.Count == 0)
+            if (rsvps.Count == 0)
             {
-
+                throw new Exception("No RSVPs found for this event.");
             }
             return _mapper.Map<List<RsvpResponseDTO>>(rsvps);
         }
@@ -86,13 +91,22 @@ namespace EventManagement.Data.Repository.Implementations
         public async Task<RsvpResponseDTO> UpdateRsvpStatus(int rsvpId, string status)
         {
             var rsvp = await _context.Rsvps.FindAsync(rsvpId);
-            if (rsvp == null) throw new Exception("RSVP not found");
+            if (rsvp == null)
+            {
+                throw new Exception("RSVP not found");
+            }
 
             rsvp.Status = status;
             _context.Entry(rsvp).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+
+            int count = await _context.SaveChangesAsync();
+            if (count == 0)
+            {
+                throw new Exception("Error updating RSVP status");
+            }
 
             return _mapper.Map<RsvpResponseDTO>(rsvp);
         }
+
     }
 }

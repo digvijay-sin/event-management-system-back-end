@@ -24,12 +24,32 @@ namespace EventManagement.Data.Repository.Implementations
         }
         public async Task<UserResponseDTO?> AuthenticateUser(LoginRequestDTO creds)
         {
-            var user = await _context.Users.Where(u => u.Email == creds.Email && u.Password == creds.Password).Include(u => u.Role).FirstOrDefaultAsync();
-            if (user == null)
+            try
             {
+
+                var user = await _context.Users
+                     .Include(u => u.Role)
+                     .FirstOrDefaultAsync(u => u.Email == creds.Email);
+
+
+                if (user == null)
+                {
+                    return null;
+                }
+
+
+                if (user.Password == creds.Password)
+                {
+                    return _mapper.Map<UserResponseDTO>(user);
+                }
+
                 return null;
             }
-            return _mapper.Map<UserResponseDTO>(user);
-        }   
+            catch (Exception ex)
+            {
+
+                throw new Exception("An error occurred while authenticating the user.", ex);
+            }
+        }
     }
 }

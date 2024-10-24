@@ -20,49 +20,61 @@ namespace EventManagement.API.Controllers
             _superadminRepository = superadminRepository;
             _tokenService = tokenService;
         }
-
         [Authorize(Roles = "SuperAdmin")]
         [HttpPost("addRole")]
-
         [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<IActionResult> AddRole([FromBody] RoleRequestDTO role)
         {
             if (role == null)
             {
-                return BadRequest();
+                return BadRequest("Role data is required.");
             }
-            bool status = await _superadminRepository.CreateRole(role);
-            if (!status)
+
+            try
             {
-                return StatusCode(500, "An Unexpected Error has Occurred!");
+                bool status = await _superadminRepository.CreateRole(role);
+                if (!status)
+                {
+                    return StatusCode(500, "An unexpected error has occurred while creating the role.");
+                }
+
+                return CreatedAtAction(nameof(AddRole), new { role }, "Successfully! Role Created");
             }
-            return StatusCode(201, "Successfully! Role Created");
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An unexpected error has occurred: {ex.Message}");
+            }
         }
 
         [Authorize(Roles = "SuperAdmin")]
         [HttpPost("assignRole")]
-
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> AssignRoleToUser([FromBody] AddUserRoleDTO addUserRole)
         {
             if (addUserRole == null)
             {
-                return BadRequest();
+                return BadRequest("User role data is required.");
             }
-            var user = await _superadminRepository.AssignRole(addUserRole);
 
-            if (user == null)
+            try
             {
-                return StatusCode(500, "An Unexpected Error has Occurred!");
+                var user = await _superadminRepository.AssignRole(addUserRole);
+                if (user == null)
+                {
+                    return NotFound("User or Role not found.");
+                }
+
+                return Ok(user);
             }
-            return Ok(user);
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An unexpected error has occurred: {ex.Message}");
+            }
         }
+
     }
 }

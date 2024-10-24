@@ -61,6 +61,7 @@ D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\EventManagement.API.csproj.CoreCompileInputs.cache
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\EventManagement.API.MvcApplicationPartsAssemblyInfo.cs
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\EventManagement.API.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\EventManagement.API.sourcelink.json
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\staticwebassets.build.json
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\staticwebassets.development.json
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.API\obj\Debug\net8.0\staticwebassets\msbuild.EventManagement.API.Microsoft.AspNetCore.StaticWebAssets.props

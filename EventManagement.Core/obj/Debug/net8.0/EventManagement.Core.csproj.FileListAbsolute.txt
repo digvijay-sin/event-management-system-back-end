@@ -6,6 +6,7 @@ D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\ne
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.AssemblyInfoInputs.cache
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.AssemblyInfo.cs
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.sourcelink.json
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.dll
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\refint\EventManagement.Core.dll
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Core\obj\Debug\net8.0\EventManagement.Core.pdb

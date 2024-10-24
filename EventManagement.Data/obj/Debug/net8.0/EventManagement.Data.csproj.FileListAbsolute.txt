@@ -9,6 +9,7 @@ D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\ne
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventManagement.Data.AssemblyInfoInputs.cache
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventManagement.Data.AssemblyInfo.cs
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventManagement.Data.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventManagement.Data.sourcelink.json
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventMan.642D53E9.Up2Date
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\EventManagement.Data.dll
 D:\.NET\.NET Core Projects\EventManagement.API\EventManagement.Data\obj\Debug\net8.0\refint\EventManagement.Data.dll

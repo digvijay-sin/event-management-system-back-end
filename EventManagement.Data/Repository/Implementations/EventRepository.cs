@@ -22,10 +22,10 @@ namespace EventManagement.Data.Repository.Implementations
             _mapper = mapper;
         }
 
-        public async Task<EventResponseDTO> CreateEvent(CreateEventRequestDTO eventDto, int UserId)
+        public async Task<EventResponseDTO> CreateEvent(CreateEventRequestDTO eventDto, int userId)
         {
             var @event = _mapper.Map<Event>(eventDto);
-            @event.UserId = UserId;
+            @event.UserId = userId;
             @event.CreatedAt = DateTime.UtcNow;
             @event.UpdatedAt = DateTime.UtcNow;
             @event.Status = "Upcoming";
@@ -35,78 +35,70 @@ namespace EventManagement.Data.Repository.Implementations
 
             if (count == 0)
             {
-                return null;
-            }
-            if (@event.UserId == UserId) {
-                return null;
+                throw new Exception("Failed to create the event. Please try again."); 
             }
 
             return _mapper.Map<EventResponseDTO>(@event);
         }
 
-        public async Task<bool> DeleteEvent(int eventId, int UserId)
+        public async Task<bool> DeleteEvent(int eventId, int userId)
         {
             var @event = await _context.Events.FindAsync(eventId);
             if (@event == null)
             {
-                return false;
+                throw new KeyNotFoundException("Event not found."); 
             }
-            if (@event.UserId != UserId)
+
+            if (@event.UserId != userId)
             {
-                return false;
+                throw new UnauthorizedAccessException("User not authorized to delete this event."); 
             }
+
             _context.Events.Remove(@event);
             int count = await _context.SaveChangesAsync();
 
-            return count > 0;
+            return count > 0; 
         }
 
-        public async Task<List<EventResponseDTO>> GetAllEvents(int UserId)
+        public async Task<List<EventResponseDTO>> GetAllEvents(int userId)
         {
-            var events = await _context.Events.Where(e => e.UserId == UserId).Include(e => e.Rsvps).ToListAsync();
-            if (events.Count == 0)
-            {
-
-            }            
+            var events = await _context.Events.Where(e => e.UserId == userId).Include(e => e.Rsvps).ToListAsync();
             return _mapper.Map<List<EventResponseDTO>>(events);
         }
 
-        public async Task<EventResponseDTO> GetEventById(int eventId, int UserId)
+        public async Task<EventResponseDTO> GetEventById(int eventId, int userId)
         {
             var @event = await _context.Events.FindAsync(eventId);
-            if (@event == null)
+            if (@event == null || @event.UserId != userId)
             {
-
-            }
-            if (@event.UserId != UserId)
-            {
-                return null;
+                throw new KeyNotFoundException("Event not found or user not authorized.");
             }
             return _mapper.Map<EventResponseDTO>(@event);
         }
 
-        public async Task<EventResponseDTO> UpdateEvent(UpdateEventRequestDTO eventDto, int UserId)
+        public async Task<EventResponseDTO> UpdateEvent(UpdateEventRequestDTO eventDto, int userId)
         {
             var @event = await _context.Events.FindAsync(eventDto.EventId);
             if (@event == null)
             {
-                return null;
+                throw new KeyNotFoundException("Event not found."); 
             }
 
-            if (@event.UserId != UserId)
+            if (@event.UserId != userId)
             {
-
+                throw new UnauthorizedAccessException("User not authorized to update this event.");
             }
 
             @event.UpdatedAt = DateTime.UtcNow;
-            _context.Entry(@event).CurrentValues.SetValues(eventDto);
+            _mapper.Map(eventDto, @event); 
             _context.Entry(@event).State = EntityState.Modified;
 
             int count = await _context.SaveChangesAsync();
             if (count == 0)
             {
-
+                throw new Exception("Failed to update the event. Please try again."); 
             }
+
             return _mapper.Map<EventResponseDTO>(@event);
         }
 

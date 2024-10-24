@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\eventstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\eventstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\superadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\superadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\rsvpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +47,28 @@
       "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\ieventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\eventstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\eventstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.core\\responsedto\\roleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|solutionrelative:eventmanagement.core\\responsedto\\roleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\rsvprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\mappingservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\migrations\\20241010101612_attendeecountinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\migrations\\20241010101612_attendeecountinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\iauthrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.core\\requestdto\\createeventrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241015071453_AddedDurationsINEvnts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventManagement.Data\\Migrations\\20241015071453_AddedDurationsINEvnts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.core\\responsedto\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,16 +171,8 @@
       "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CFC792-65BA-489C-B976-88A63855B8E0}|EventManagement.API\\EventManagement.API.csproj|solutionrelative:eventmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.core\\requestdto\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6033D0AE-FAA7-492F-903C-2E9BB059AC83}|EventManagement.Core\\EventManagement.Core.csproj|solutionrelative:eventmanagement.core\\requestdto\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -189,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\migrations\\20241011082305_addedroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\migrations\\20241011082305_addedroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\implementations\\superadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\repository\\implementations\\superadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\repository\\isuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -241,6 +237,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\migrations\\20241014060858_addedaddressinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\migrations\\20241014060858_addedaddressinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|d:\\.net\\.net core projects\\eventmanagement.api\\eventmanagement.data\\migrations\\20241015071453_addeddurationsinevnts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D70225-1069-47D1-9A2A-56BDCB9E46D6}|EventManagement.Data\\EventManagement.Data.csproj|solutionrelative:eventmanagement.data\\migrations\\20241015071453_addeddurationsinevnts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -250,24 +250,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EventManagement.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:20:55.189Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -277,183 +264,144 @@
               "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\SuperAdminController.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\SuperAdminController.cs",
               "RelativeToolTip": "EventManagement.API\\Controllers\\SuperAdminController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T08:04:25.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RsvpController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\RsvpController.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\RsvpController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\RsvpController.cs",
-              "RelativeToolTip": "EventManagement.API\\Controllers\\RsvpController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SuperAdminRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
+              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:03:32.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotificationSender.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\NotificationSender.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Service\\NotificationSender.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\NotificationSender.cs",
-              "RelativeToolTip": "EventManagement.API\\Service\\NotificationSender.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:35:26.022Z",
+              "WhenOpened": "2024-10-11T08:09:04.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventStatusService.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EventStatusService.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Service\\EventStatusService.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EventStatusService.cs",
-              "RelativeToolTip": "EventManagement.API\\Service\\EventStatusService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAABuAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventManagement.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwH8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:12:12.029Z",
+              "WhenOpened": "2024-10-09T13:20:55.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\EventController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\EventController.cs",
-              "RelativeToolTip": "EventManagement.API\\Controllers\\EventController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:58:37.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EmailSender.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Service\\EmailSender.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EmailSender.cs",
-              "RelativeToolTip": "EventManagement.API\\Service\\EmailSender.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:37:42.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEventRepo.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IEventRepo.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\IEventRepo.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IEventRepo.cs",
-              "RelativeToolTip": "EventManagement.Data\\Repository\\IEventRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wBoAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:04:43.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
-              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwEkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:25:40.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
-              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAMwDkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:30:21.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\AuthRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\AuthRepository.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\AuthRepository.cs",
               "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\AuthRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAewBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T12:37:35.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleResponseDTO.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
-              "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
-              "RelativeToolTip": "EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EventManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T05:41:15.7Z",
+              "WhenOpened": "2024-10-09T11:08:34.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "RsvpController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\RsvpController.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\RsvpController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\RsvpController.cs",
+              "RelativeToolTip": "EventManagement.API\\Controllers\\RsvpController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:03:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:21:43.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RsvpRepository.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\RsvpRepository.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\RsvpRepository.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\RsvpRepository.cs",
               "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\RsvpRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDcAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T09:09:34.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\MappingService\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\MappingService\\MappingProfile.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\MappingService\\MappingProfile.cs",
-              "RelativeToolTip": "EventManagement.Data\\MappingService\\MappingProfile.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EventManagement.API\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAgwNIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:31:31.397Z",
+              "WhenOpened": "2024-10-08T09:58:37.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241010101612_AttendeeCountInEvent.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
-              "RelativeToolTip": "EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
+              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\EventRepository.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwKEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T10:16:12.601Z",
+              "WhenOpened": "2024-10-08T07:25:40.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAMwDUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:30:21.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IAuthRepo.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IAuthRepo.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\IAuthRepo.cs",
@@ -466,7 +414,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEventRepo.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IEventRepo.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\IEventRepo.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IEventRepo.cs",
+              "RelativeToolTip": "EventManagement.Data\\Repository\\IEventRepo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:04:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotificationSender.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\NotificationSender.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Service\\NotificationSender.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\NotificationSender.cs",
+              "RelativeToolTip": "EventManagement.API\\Service\\NotificationSender.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:35:26.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventStatusService.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EventStatusService.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Service\\EventStatusService.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EventStatusService.cs",
+              "RelativeToolTip": "EventManagement.API\\Service\\EventStatusService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBUAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:12:12.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EventManagement.API\\Service\\EmailSender.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\EmailSender.cs",
+              "RelativeToolTip": "EventManagement.API\\Service\\EmailSender.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABQwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:37:42.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleResponseDTO.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
+              "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
+              "RelativeToolTip": "EventManagement.Core\\ResponseDTO\\RoleResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T05:41:15.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\MappingService\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\MappingService\\MappingProfile.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\MappingService\\MappingProfile.cs",
+              "RelativeToolTip": "EventManagement.Data\\MappingService\\MappingProfile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:31:31.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "20241010101612_AttendeeCountInEvent.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
+              "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
+              "RelativeToolTip": "EventManagement.Data\\Migrations\\20241010101612_AttendeeCountInEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:16:12.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AddUserRoleDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\AddUserRoleDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\AddUserRoleDTO.cs",
@@ -479,59 +518,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Models\\User.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\User.cs",
               "RelativeToolTip": "EventManagement.Data\\Models\\User.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T11:15:07.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\Role.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Models\\Role.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\Role.cs",
               "RelativeToolTip": "EventManagement.Data\\Models\\Role.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T05:04:19.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Models\\Event.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\Event.cs",
               "RelativeToolTip": "EventManagement.Data\\Models\\Event.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:05:58.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CreateEventRequestDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\CreateEventRequestDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\CreateEventRequestDTO.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\CreateEventRequestDTO.cs",
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\CreateEventRequestDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvxAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:36:54.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "CreateRsvpRequestDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\CreateRsvpRequestDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\CreateRsvpRequestDTO.cs",
@@ -544,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 59,
               "Title": "20241015071453_AddedDurationsINEvnts.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241015071453_AddedDurationsINEvnts.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241015071453_AddedDurationsINEvnts.cs",
@@ -557,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "EventResponseDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\EventResponseDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\EventResponseDTO.cs",
@@ -570,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CSVHelper.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\CSVHelper.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Service\\CSVHelper.cs",
@@ -583,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "UserResponseDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\UserResponseDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\UserResponseDTO.cs",
@@ -596,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "RsvpResponseDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\RsvpResponseDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\RsvpResponseDTO.cs",
@@ -609,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Program.cs",
@@ -622,20 +661,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ISendService.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\ISendService.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\ISendService.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\ISendService.cs",
               "RelativeToolTip": "EventManagement.Data\\Repository\\ISendService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T11:29:25.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -643,11 +682,12 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:00:33.327Z"
+              "WhenOpened": "2024-10-14T14:00:33.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Context\\ApplicationDbContext.cs",
@@ -655,11 +695,12 @@
               "RelativeToolTip": "EventManagement.Data\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAYwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:17:15.399Z"
+              "WhenOpened": "2024-10-08T06:17:15.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "UpdateUserDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\UpdateUserDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\UpdateUserDTO.cs",
@@ -667,11 +708,12 @@
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\UpdateUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:37:06.937Z"
+              "WhenOpened": "2024-10-09T13:37:06.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UpdateEventRequestDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\UpdateEventRequestDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\UpdateEventRequestDTO.cs",
@@ -679,23 +721,25 @@
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\UpdateEventRequestDTO.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAswBYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:15:32.934Z"
+              "WhenOpened": "2024-10-08T07:15:32.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "EventWithRsvpsDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\EventWithRsvpsDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\EventWithRsvpsDTO.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\EventWithRsvpsDTO.cs",
               "RelativeToolTip": "EventManagement.Core\\ResponseDTO\\EventWithRsvpsDTO.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwBoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wBoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:06:12.872Z"
+              "WhenOpened": "2024-10-14T11:06:12.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IRsvpRepo.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\IRsvpRepo.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\IRsvpRepo.cs",
@@ -703,11 +747,12 @@
               "RelativeToolTip": "EventManagement.Data\\Repository\\IRsvpRepo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T07:05:04.013Z"
+              "WhenOpened": "2024-10-08T07:05:04.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "EventManagement.Core.csproj",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\EventManagement.Core.csproj",
               "RelativeDocumentMoniker": "EventManagement.Core\\EventManagement.Core.csproj",
@@ -720,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Rsvp.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Models\\Rsvp.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Models\\Rsvp.cs",
@@ -728,11 +773,12 @@
               "RelativeToolTip": "EventManagement.Data\\Models\\Rsvp.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwBYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:06:23.233Z"
+              "WhenOpened": "2024-10-08T06:06:23.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "AuthResponseDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\ResponseDTO\\AuthResponseDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\ResponseDTO\\AuthResponseDTO.cs",
@@ -740,11 +786,12 @@
               "RelativeToolTip": "EventManagement.Core\\ResponseDTO\\AuthResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:26:17.807Z"
+              "WhenOpened": "2024-10-09T11:26:17.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "DbContextFactory.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Context\\DbContextFactory.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Context\\DbContextFactory.cs",
@@ -752,11 +799,12 @@
               "RelativeToolTip": "EventManagement.Data\\Context\\DbContextFactory.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:52:18.68Z"
+              "WhenOpened": "2024-10-08T06:52:18.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "EventManagement.API\\Service\\TokenService.cs",
@@ -764,47 +812,25 @@
               "RelativeToolTip": "EventManagement.API\\Service\\TokenService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAEwCsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:30:31.261Z"
+              "WhenOpened": "2024-10-09T12:30:31.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EventManagement.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EventManagement.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:08:34.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "RegistrationRequestDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\RegistrationRequestDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\RegistrationRequestDTO.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\RegistrationRequestDTO.cs",
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\RegistrationRequestDTO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:23:35.024Z"
+              "WhenOpened": "2024-10-09T11:23:35.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
-              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\UserRepository.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAewEkAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:21:43.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "20241014060858_addedAddressInUser.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241014060858_addedAddressInUser.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241014060858_addedAddressInUser.cs",
@@ -812,7 +838,8 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241014060858_addedAddressInUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:08:58.92Z"
+              "WhenOpened": "2024-10-14T06:08:58.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -824,7 +851,8 @@
               "RelativeToolTip": "EventManagement.Data\\Repository\\IUserRepo.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAewAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:21:30.494Z"
+              "WhenOpened": "2024-10-09T13:21:30.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -836,7 +864,8 @@
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\UpdateRsvpRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:16:50.626Z"
+              "WhenOpened": "2024-10-08T09:16:50.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -848,7 +877,8 @@
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\RoleRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T05:40:32.767Z"
+              "WhenOpened": "2024-10-11T05:40:32.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -860,23 +890,12 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241011082305_AddedRoleEntity.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:23:05.828Z"
+              "WhenOpened": "2024-10-11T08:23:05.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
-              "Title": "SuperAdminRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
-              "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
-              "RelativeToolTip": "EventManagement.Data\\Repository\\Implementations\\SuperAdminRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:09:04.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
               "Title": "ISuperAdmin.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Repository\\ISuperAdmin.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Repository\\ISuperAdmin.cs",
@@ -884,11 +903,12 @@
               "RelativeToolTip": "EventManagement.Data\\Repository\\ISuperAdmin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:08:19.304Z"
+              "WhenOpened": "2024-10-11T08:08:19.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagement.API\\appsettings.json",
@@ -896,11 +916,12 @@
               "RelativeToolTip": "EventManagement.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T06:29:38.009Z"
+              "WhenOpened": "2024-10-08T06:29:38.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "LoginRequestDTO.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Core\\RequestDTO\\LoginRequestDTO.cs",
               "RelativeDocumentMoniker": "EventManagement.Core\\RequestDTO\\LoginRequestDTO.cs",
@@ -908,11 +929,12 @@
               "RelativeToolTip": "EventManagement.Core\\RequestDTO\\LoginRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:42:10.443Z"
+              "WhenOpened": "2024-10-09T11:42:10.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "20241010113145_CascadeDeleteAdded.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010113145_CascadeDeleteAdded.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241010113145_CascadeDeleteAdded.cs",
@@ -920,23 +942,25 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241010113145_CascadeDeleteAdded.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T11:31:45.74Z"
+              "WhenOpened": "2024-10-10T11:31:45.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "20241010101433_AttendeeCount Field.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101433_AttendeeCount Field.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241010101433_AttendeeCount Field.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010101433_AttendeeCount Field.cs",
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241010101433_AttendeeCount Field.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T10:14:33.984Z"
+              "WhenOpened": "2024-10-10T10:14:33.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "20241010053341_newEntity.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241010053341_newEntity.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241010053341_newEntity.cs",
@@ -944,23 +968,25 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241010053341_newEntity.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwDQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T05:33:41.246Z"
+              "WhenOpened": "2024-10-10T05:33:41.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EventManagement.API\\Properties\\launchSettings.json",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "EventManagement.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-09T07:04:45.541Z"
+              "WhenOpened": "2024-10-09T07:04:45.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagement.Data\\appsettings.json",
@@ -968,11 +994,12 @@
               "RelativeToolTip": "EventManagement.Data\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T05:29:05.902Z"
+              "WhenOpened": "2024-10-08T05:29:05.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "EventManagement.API",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.API\\EventManagement.API.csproj",
               "RelativeDocumentMoniker": "EventManagement.API\\EventManagement.API.csproj",
@@ -984,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "20241008125703_InitialCreate.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241008125703_InitialCreate.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241008125703_InitialCreate.cs",
@@ -992,11 +1019,12 @@
               "RelativeToolTip": "EventManagement.Data\\Migrations\\20241008125703_InitialCreate.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:57:04.311Z"
+              "WhenOpened": "2024-10-08T12:57:04.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "20241008070215_InitialSetup.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\EventManagement.API\\EventManagement.Data\\Migrations\\20241008070215_InitialSetup.cs",
               "RelativeDocumentMoniker": "EventManagement.Data\\Migrations\\20241008070215_InitialSetup.cs",

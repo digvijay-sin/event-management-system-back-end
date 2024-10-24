@@ -28,12 +28,21 @@ namespace EventManagement.Data.Repository.Implementations
             var user = await _context.Users.FindAsync(addUserRole.UserId);
             var role = await _context.Roles.FindAsync(addUserRole.RoleId);
 
-            if (user == null || role == null)
+            if (user == null)
             {
-                return null;
+                throw new Exception("User not found.");
             }
+            if (role == null)
+            {
+                throw new Exception("Role not found.");
+            }
+
             user.RoleId = addUserRole.RoleId;
             int count = await _context.SaveChangesAsync();
+            if (count == 0)
+            {
+                throw new Exception("Error assigning role to user.");
+            }
 
             return _mapper.Map<UserResponseDTO>(user);
         }
@@ -44,8 +53,13 @@ namespace EventManagement.Data.Repository.Implementations
 
             await _context.AddAsync(newRole);
             int count = await _context.SaveChangesAsync();
-            return count > 0;
+            if (count == 0)
+            {
+                throw new Exception("Error creating role.");
+            }
 
+            return true; // If save was successful, return true.
         }
+
     }
 }
